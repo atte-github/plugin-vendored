@@ -1,6 +1,6 @@
 #!/bin/bash
-
-if [BUILDKITE_RETRY_COUNT > 0] then
+if [BUILDKITE_RETRY_COUNT > 0] 
+then
    var= "building"
    echo var
 else 
