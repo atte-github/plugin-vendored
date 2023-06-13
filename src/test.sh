@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "the rety count is $BUILDKITE_RETRY_COUNT"
 if [$BUILDKITE_RETRY_COUNT > 0] 
 then
    var= "building"
