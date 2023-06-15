@@ -1,0 +1,4 @@
+steps:
+  - command: echo hi
+    agents:
+      queue: "deploy"
